@@ -1,29 +1,193 @@
 body {
-  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-h1 {
-  font-size: 60px;
+
+.item-center {
+  align-items: center;
 }
-p {
-  font-size: 30px;
+
+.container {
+  padding: 1rem 8%;
+  margin: 0 auto;
 }
-.orange-color {
-  color: orange;
-}
-section {
+
+.flex {
   display: flex;
 }
-.half-width {
-  width: 50%;
-  padding-top: 7%;
-  padding-left: 7%;
+
+.basis-50 {
+  flex-basis: 50%;
 }
-.half-wid img {
+
+.justify-around {
+  justify-content: space-around;
+}
+
+section {
+  margin: 30px 0;
+}
+
+.common-button {
+  padding: 20px 50px;
+  background-image: linear-gradient(90deg, rgb(214, 186, 25), rgb(124, 111, 52));
+  color: rgb(219, 166, 166);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 4px rgba(166, 179, 56, 0.37);
+  font-size: 20px;
+}
+
+#hero-area .container .left-side h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #575757;
+}
+
+#hero-area .container .left-side h1 span {
+  color: rgb(204, 161, 19);
+}
+
+#hero-area .container .left-side p {
+  font-size: 20px;
+  width: 80%;
+  color: #828282;
+  font-weight: 500;
+  margin-bottom: 50px;
+  line-height: 1.5em;
+}
+
+#hero-area .container .right-side img {
   width: 100%;
 }
-.link-button {
-  text-decoration: none;
-  background-color: orangered;
-  padding: 20px 40px;
+
+#about {
+  display: flex;
+  margin-top: 40px;
+  padding: 10px 5px;
+  background-image: url(./images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-image img {
+  width: 100%;
+  margin-left: 100px;
+  padding-left: 50px;
+}
+.about-text {
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-left: 100px;
+  padding-top: 120px;
+}
+.about-text p {
+  width: 90%;
   font-size: larger;
+}
+.food {
+  font-size: 50px;
+}
+.about-button {
+  padding: 20px 50px;
+  background-image: linear-gradient(90deg, rgb(214, 186, 25), rgb(124, 111, 52));
+  color: rgb(219, 166, 166);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 4px rgba(166, 179, 56, 0.37);
+  font-size: 20px;
+}
+
+#my-recipies h1 {
+  font-weight: 700;
+  color: #676767;
+  text-align: center;
+  font-size: 36px;
+  padding: 20px 0;
+}
+
+#my-recipies p {
+  font-weight: 500;
+  color: #252525;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+  line-height: 1.5em;
+}
+
+#recipy-description {
+  width: 650px;
+}
+
+#my-recipies .container .Recipie-Items {
+  width: 377px;
+  background-color: white;
+  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+  border-radius: 30px;
+  padding: 15px 15px 30px 15px;
+}
+
+#my-recipies .container .margin-right {
+  margin-right: 50px;
+}
+
+#my-recipies .container .Recipie-Items img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+#my-recipies .container .Recipie-Items h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#my-recipies .container .Recipie-Items p {
+  font-weight: 400;
+  color: #18191f;
+  text-align: justify;
+}
+
+#my-recipies .container {
+  justify-content: center;
+}
+
+#anylitics .main {
+  background-color: white;
+  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+  border-radius: 20px;
+  margin: 50px 8%;
+  padding: 30px 0;
+}
+
+#anylitics .main h1 {
+  font-size: 48px;
+  margin-block-end: 0;
+}
+
+#anylitics .main p {
+  font-size: 16px;
+}
+
+footer {
+  height: 250px;
+  background-color: black;
+}
+
+footer h1 {
+  color: #5b5b5b;
+  text-align: center;
+  padding: 2em 0 1em 0;
+}
+
+footer h1 span {
+  color: rgb(47, 206, 47);
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
 }
